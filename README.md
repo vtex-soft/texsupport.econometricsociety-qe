@@ -15,7 +15,7 @@ The following files are given in the repository (or directly in `.zip` archive):
     of your document, proper tagging style, layout features, etc;
 -   `qe_sample_final.pdf` - sample file with `final` option for prepublication;
 -   `qe_sample.tex` - source file for the instructions paper `qe_sample.pdf`;
--   `figure1.eps`, `figure1.pdf` - sample figures for `qe_sample.pdf`.
+-   `figure_sample.eps`, `figure_sample.pdf` - sample figures for `qe_sample.pdf`.
 -   `qe.bst` - BibTeX styles to prepare bibliography file.
     More information can be found [here](http://www.bibtex.org/Using/) 
     or [here](https://www.latex-tutorial.com/tutorials/bibtex/).
