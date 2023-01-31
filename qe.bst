@@ -1,5 +1,5 @@
 %%
-%% This is file `te.bst',
+%% This is file `qe.bst',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
@@ -811,6 +811,16 @@ FUNCTION {format.vol.num.pages}
       "volume" bibinfo.check
     }
   if$
+  number "number" bibinfo.check duplicate$ empty$ 'skip$
+    {
+      swap$ duplicate$ empty$
+        { "there's a number but no volume in " cite$ * warning$ }
+        'skip$
+      if$
+      swap$
+      " (" swap$ * ")" *
+    }
+  if$ *
   eid empty$
     { format.journal.pages }
     { format.journal.eid }
@@ -1514,5 +1524,4 @@ FUNCTION {end.bib}
 EXECUTE {end.bib}
 %% End of customized bst file
 %%
-%% End of file `te.bst'.
-
+%% End of file `qe.bst'.
