@@ -3,12 +3,17 @@
 LaTeX author support files for the Econometric Society journal 
 [Quantitative Economics (QE)](http://qeconomics.org/ojs/index.php/qe)
 
+As of 2024, the journal will be an electronic publication only. Please take a moment to read 
+through the `qe_sample.pdf` for instructions and helpful information regarding style.
+
 ## Contents
 
 The following files are given in the repository (or directly in `.zip` archive):
 
--   `econsocart.cls`, `econsocart.cfg` - LaTeX style files designed for articles of the Econometric Society journals. 
-    (See also [ECTA](https://github.com/vtex-soft/texsupport.econometricsociety-ecta) and [TE](https://github.com/vtex-soft/texsupport.econometricsociety-te).)
+-   `econsocart.cls`, `econsocart.cfg` - LaTeX style files designed for 
+    articles of the Econometric Society journals. (See also 
+    [ECTA](https://github.com/vtex-soft/texsupport.econometricsociety-ecta) and 
+    [TE](https://github.com/vtex-soft/texsupport.econometricsociety-te).)
     Please do not change them. These files are already loaded in the respective template files; 
 -   `qe_template.tex` - the main template file should be used for article preparation;
 -   `qe_sample.pdf` - sample file and instructions for the preparation of a
